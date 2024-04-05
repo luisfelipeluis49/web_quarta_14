@@ -5,6 +5,62 @@
     </head>
 
     <body>
-        
+        <form action="./dentro_do_email.html" method="GET">
+            <p>Nomes:</p>
+            <input type="text" placeholder="Digite seu nome" required>
+            <input type="text" placeholder="Digite seu nome do meio">
+            <input type="text" placeholder="Digite seu sobrenome" required>
+
+            <p>Perdi a aula 01 <input type="checkbox" name="aula01" id=""></p>
+            <p>Perdi a aula 02 <input type="checkbox" name="aula02" id=""></p>
+            <p>Perdi a aula 03 <input type="checkbox" name="aula03" id=""></p>
+            <p>Perdi a aula 04 <input type="checkbox" name="aula04" id=""></p>
+            <p>Perdi a aula 05 <input type="checkbox" name="aula05" id=""></p>
+            
+            <h2>Gênero</h2>
+            <p><input type="radio" name="gen" value="F"> Feminino</p>
+            <p><input type="radio" name="gen" value="M"> Masculino</p>
+            <p><input type="radio" name="gen" value="O"> Prefiro não informar</p>
+            <h2>Posso votar</h2>
+            <p><input type="radio" name="votar" value="S"> Sim</p>
+            <p><input type="radio" name="votar" value="N"> Não</p>
+
+            <h2>Quando você nasceu:</h2>
+            <p>Dt. Nasc.: <input type="date" name="" id=""></p>
+            <p>Data e hora <input type="datetime-local" name="" id=""></p>
+            
+            <h2>Qual sua cor favorita</h2>
+            <p>Escolha uma <input type="color" name="" id=""></p>
+
+            <h2>Insira seu projeto zipado</h2>
+            <input type="file" name="arquivo" id="">
+
+            <h2>Advinhe</h2>
+            <p>Numéro entre 1 e 5 <input type="number" min="1" max="5"></p>
+            <p>Escolha entre 1 e 5 <input type="range" min="1" max="5"></p>
+
+            <h2>Redação</h2>
+            <textarea name="" id="" cols="50" rows="3"></textarea>
+
+            <h2>Botões</h2>
+            <button type="button" onclick="alert('AAAAAAAAAAAAAAAAAAAAAAAA')">Grite comigo</button>
+
+            <h2>Qual Região você mora</h2>
+            <p>
+                Escolha:
+                <select name="estado" id="">
+                    <option value="N">Norte</option>
+                    <option value="NE">Nordeste</option>
+                    <option value="CO">Cetro-Oeste</option>
+                    <option value="SE">Sudeste</option>
+                    <option value="S">Sul</option>
+                </select>
+            </p>
+            
+
+            <h2>Diferença entre</h2>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reiniciar">
+        </form>
     </body>
 </html>
